@@ -1,0 +1,44 @@
+2025-12-29 14:39:54 | [32mINFO[0m | Logger initialized. Logs saved to: logs/agent_20251229_143954.log
+2025-12-29 14:39:55 | [32mINFO[0m | Found window: 'RuneLite' at (-16, -68) size 943x996
+2025-12-29 14:39:55 | [32mINFO[0m | Initialized Anthropic Claude (claude-3-5-sonnet-20241022)
+2025-12-29 14:39:55 | [32mINFO[0m | 
+============================================================
+2025-12-29 14:39:55 | [32mINFO[0m | OSRS VLM Agent - Test Suite
+2025-12-29 14:39:55 | [32mINFO[0m | ============================================================
+
+2025-12-29 14:39:55 | [32mINFO[0m | ============================================================
+2025-12-29 14:39:55 | [32mINFO[0m | TEST 1: Window Detection
+2025-12-29 14:39:55 | [32mINFO[0m | ============================================================
+2025-12-29 14:39:55 | [32mINFO[0m | ✅ SUCCESS: ✅ Found RuneLite window
+2025-12-29 14:39:55 | [32mINFO[0m |   Position: (-16, -68)
+2025-12-29 14:39:55 | [32mINFO[0m |   Size: 943x996
+2025-12-29 14:39:56 | [32mINFO[0m | 
+============================================================
+2025-12-29 14:39:56 | [32mINFO[0m | TEST 2: Screenshot Capture
+2025-12-29 14:39:56 | [32mINFO[0m | ============================================================
+2025-12-29 14:39:56 | [31mERROR[0m | Failed to capture screenshot: XGetImage() failed
+2025-12-29 14:39:56 | [31mERROR[0m | ❌ Screenshot capture failed
+2025-12-29 14:39:56 | [32mINFO[0m | 
+============================================================
+2025-12-29 14:39:56 | [32mINFO[0m | TEST 3: VLM Basic Understanding
+2025-12-29 14:39:56 | [32mINFO[0m | ============================================================
+2025-12-29 14:39:56 | [31mERROR[0m | Failed to capture screenshot: XGetImage() failed
+2025-12-29 14:39:56 | [31mERROR[0m | ❌ Could not capture screenshot for VLM test
+2025-12-29 14:39:57 | [32mINFO[0m | 
+============================================================
+2025-12-29 14:39:57 | [32mINFO[0m | TEST 4: Inventory Analysis
+2025-12-29 14:39:57 | [32mINFO[0m | ============================================================
+2025-12-29 14:39:57 | [31mERROR[0m | Failed to capture screenshot: XGetImage() failed
+2025-12-29 14:39:57 | [31mERROR[0m | ❌ Could not capture screenshot
+2025-12-29 14:39:57 | [32mINFO[0m | 
+============================================================
+2025-12-29 14:39:57 | [32mINFO[0m | TEST SUMMARY
+2025-12-29 14:39:57 | [32mINFO[0m | ============================================================
+2025-12-29 14:39:57 | [32mINFO[0m |   ✅ PASS - Window Detection
+2025-12-29 14:39:57 | [32mINFO[0m |   ❌ FAIL - Screenshot Capture
+2025-12-29 14:39:57 | [32mINFO[0m |   ❌ FAIL - VLM Basic Understanding
+2025-12-29 14:39:57 | [32mINFO[0m |   ❌ FAIL - Inventory Analysis
+2025-12-29 14:39:57 | [32mINFO[0m | 
+Results: 1/4 tests passed
+2025-12-29 14:39:57 | [33mWARNING[0m | 
+⚠️  Some tests failed. Fix issues before running agent.

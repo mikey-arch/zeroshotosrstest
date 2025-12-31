@@ -1,0 +1,50 @@
+2025-12-28 23:19:30 | [32mINFO[0m | Logger initialized. Logs saved to: logs/agent_20251228_231930.log
+2025-12-28 23:19:31 | [32mINFO[0m | Loaded window config from window_config.json
+2025-12-28 23:19:31 | [32mINFO[0m | Initialized Anthropic Claude (claude-3-5-sonnet-20241022)
+2025-12-28 23:19:31 | [32mINFO[0m | 
+============================================================
+2025-12-28 23:19:31 | [32mINFO[0m | OSRS VLM Agent - Test Suite
+2025-12-28 23:19:31 | [32mINFO[0m | ============================================================
+
+2025-12-28 23:19:31 | [32mINFO[0m | ============================================================
+2025-12-28 23:19:31 | [32mINFO[0m | TEST 1: Window Detection
+2025-12-28 23:19:31 | [32mINFO[0m | ============================================================
+2025-12-28 23:19:31 | [32mINFO[0m | ✅ SUCCESS: ✅ Found RuneLite window
+2025-12-28 23:19:31 | [32mINFO[0m |   Position: (1951, 135)
+2025-12-28 23:19:31 | [32mINFO[0m |   Size: 928x996
+2025-12-28 23:19:32 | [32mINFO[0m | 
+============================================================
+2025-12-28 23:19:32 | [32mINFO[0m | TEST 2: Screenshot Capture
+2025-12-28 23:19:32 | [32mINFO[0m | ============================================================
+2025-12-28 23:19:32 | [33mWARNING[0m | All mss backends failed or produced black images, trying scrot...
+2025-12-28 23:19:32 | [33mWARNING[0m | scrot not found. Install with: sudo pacman -S scrot
+2025-12-28 23:19:32 | [31mERROR[0m | All screenshot methods failed
+2025-12-28 23:19:32 | [31mERROR[0m | ❌ Screenshot capture failed
+2025-12-28 23:19:32 | [32mINFO[0m | 
+============================================================
+2025-12-28 23:19:32 | [32mINFO[0m | TEST 3: VLM Basic Understanding
+2025-12-28 23:19:32 | [32mINFO[0m | ============================================================
+2025-12-28 23:19:32 | [33mWARNING[0m | All mss backends failed or produced black images, trying scrot...
+2025-12-28 23:19:32 | [33mWARNING[0m | scrot not found. Install with: sudo pacman -S scrot
+2025-12-28 23:19:32 | [31mERROR[0m | All screenshot methods failed
+2025-12-28 23:19:32 | [31mERROR[0m | ❌ Could not capture screenshot for VLM test
+2025-12-28 23:19:33 | [32mINFO[0m | 
+============================================================
+2025-12-28 23:19:33 | [32mINFO[0m | TEST 4: Inventory Analysis
+2025-12-28 23:19:33 | [32mINFO[0m | ============================================================
+2025-12-28 23:19:33 | [33mWARNING[0m | All mss backends failed or produced black images, trying scrot...
+2025-12-28 23:19:33 | [33mWARNING[0m | scrot not found. Install with: sudo pacman -S scrot
+2025-12-28 23:19:33 | [31mERROR[0m | All screenshot methods failed
+2025-12-28 23:19:33 | [31mERROR[0m | ❌ Could not capture screenshot
+2025-12-28 23:19:33 | [32mINFO[0m | 
+============================================================
+2025-12-28 23:19:33 | [32mINFO[0m | TEST SUMMARY
+2025-12-28 23:19:33 | [32mINFO[0m | ============================================================
+2025-12-28 23:19:33 | [32mINFO[0m |   ✅ PASS - Window Detection
+2025-12-28 23:19:33 | [32mINFO[0m |   ❌ FAIL - Screenshot Capture
+2025-12-28 23:19:33 | [32mINFO[0m |   ❌ FAIL - VLM Basic Understanding
+2025-12-28 23:19:33 | [32mINFO[0m |   ❌ FAIL - Inventory Analysis
+2025-12-28 23:19:33 | [32mINFO[0m | 
+Results: 1/4 tests passed
+2025-12-28 23:19:33 | [33mWARNING[0m | 
+⚠️  Some tests failed. Fix issues before running agent.

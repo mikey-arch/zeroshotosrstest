@@ -1,0 +1,14 @@
+# OSRS VLM Agent Dependencies
+
+# Core dependencies
+mss>=9.0.0                # Screenshot capture
+pillow>=10.0.0            # Image processing
+pyautogui>=0.9.54         # Mouse/keyboard control
+python-xlib>=0.33         # Window management (Linux)
+
+# VLM providers (install one or more)
+anthropic>=0.39.0         # Claude Vision API
+openai>=1.54.0            # GPT-4V API
+
+# transformers>=4.35.0
+# torch>=2.1.0

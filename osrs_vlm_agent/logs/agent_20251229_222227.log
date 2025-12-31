@@ -1,0 +1,48 @@
+2025-12-29 22:22:27 | [32mINFO[0m | Logger initialized. Logs saved to: logs/agent_20251229_222227.log
+2025-12-29 22:22:27 | [32mINFO[0m | Found window: 'RuneLite' at (16, 68) size 943x996
+2025-12-29 22:22:28 | [32mINFO[0m | Initialized Anthropic Claude (claude-3-5-sonnet-20241022)
+2025-12-29 22:22:28 | [32mINFO[0m | 
+============================================================
+2025-12-29 22:22:28 | [32mINFO[0m | OSRS VLM Agent - Test Suite
+2025-12-29 22:22:28 | [32mINFO[0m | ============================================================
+
+2025-12-29 22:22:28 | [32mINFO[0m | ============================================================
+2025-12-29 22:22:28 | [32mINFO[0m | TEST 1: Window Detection
+2025-12-29 22:22:28 | [32mINFO[0m | ============================================================
+2025-12-29 22:22:28 | [32mINFO[0m | ✅ SUCCESS: ✅ Found RuneLite window
+2025-12-29 22:22:28 | [32mINFO[0m |   Position: (16, 68)
+2025-12-29 22:22:28 | [32mINFO[0m |   Size: 943x996
+2025-12-29 22:22:28 | [32mINFO[0m | 
+============================================================
+2025-12-29 22:22:28 | [32mINFO[0m | TEST 2: Screenshot Capture
+2025-12-29 22:22:28 | [32mINFO[0m | ============================================================
+2025-12-29 22:22:28 | [32mINFO[0m | ✅ SUCCESS: ✅ Screenshot captured
+2025-12-29 22:22:28 | [32mINFO[0m |   Size: 943x996
+2025-12-29 22:22:28 | [32mINFO[0m |   Saved to: screenshots/
+2025-12-29 22:22:29 | [32mINFO[0m | 
+============================================================
+2025-12-29 22:22:29 | [32mINFO[0m | TEST 3: VLM Basic Understanding
+2025-12-29 22:22:29 | [32mINFO[0m | ============================================================
+2025-12-29 22:22:29 | [32mINFO[0m | Asking VLM: 'What do you see in this OSRS screenshot?'
+2025-12-29 22:22:29 | [32mINFO[0m | (This may take a few seconds...)
+2025-12-29 22:22:29 | [31mERROR[0m | VLM analysis failed: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2025-12-29 22:22:29 | [31mERROR[0m | ❌ VLM analysis failed
+2025-12-29 22:22:30 | [32mINFO[0m | 
+============================================================
+2025-12-29 22:22:30 | [32mINFO[0m | TEST 4: Inventory Analysis
+2025-12-29 22:22:30 | [32mINFO[0m | ============================================================
+2025-12-29 22:22:30 | [32mINFO[0m | Asking VLM to analyze inventory...
+2025-12-29 22:22:30 | [31mERROR[0m | VLM analysis failed: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2025-12-29 22:22:30 | [31mERROR[0m | ❌ Inventory analysis failed
+2025-12-29 22:22:31 | [32mINFO[0m | 
+============================================================
+2025-12-29 22:22:31 | [32mINFO[0m | TEST SUMMARY
+2025-12-29 22:22:31 | [32mINFO[0m | ============================================================
+2025-12-29 22:22:31 | [32mINFO[0m |   ✅ PASS - Window Detection
+2025-12-29 22:22:31 | [32mINFO[0m |   ✅ PASS - Screenshot Capture
+2025-12-29 22:22:31 | [32mINFO[0m |   ❌ FAIL - VLM Basic Understanding
+2025-12-29 22:22:31 | [32mINFO[0m |   ❌ FAIL - Inventory Analysis
+2025-12-29 22:22:31 | [32mINFO[0m | 
+Results: 2/4 tests passed
+2025-12-29 22:22:31 | [33mWARNING[0m | 
+⚠️  Some tests failed. Fix issues before running agent.
